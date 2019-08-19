@@ -1,5 +1,6 @@
 /*
 This is Marcus reviewing file Hello2
+App works. I had to omit the "package help;" though for it to work for me. 
 */
 
 package help;  //what's this do?
