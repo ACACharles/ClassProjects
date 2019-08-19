@@ -3,16 +3,17 @@ class four
 {
 public static void main (String [] args ) {
 	
-	String myName = "Luke";
+	String myName = "Luke"; // Inputting String Name
 	Scanner input = new Scanner ( System.in );
 	
 
 	
-	System.out.println( "What is your name?") ;
+	System.out.println( "What is your name?") ; // Inputting Reponse
 	String name = input.next() ; 
 	
-	System.out.println("Hello " + name + " my name is" + myName) ; 
-	
+	System.out.println("Hello " + name + " my name is" + myName) ; // Inputting Code plus Program Reponse
+
+/* This is Brian reviewing Hello4.java */	
 	
 }
 }
