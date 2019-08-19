@@ -1,3 +1,8 @@
+//This is Luke reviewing 9's file 
+
+
+// ran the code and it worked correctly 
+
 import java.util.Scanner;
 public class Hello9 {
 
