@@ -1,7 +1,7 @@
 /*
 
 This is CHARLES reviewing file hello1.java
-DOSE IT WORK (YES/ NO) it better work
+DOSE IT WORK (YES/ NO) it better work [yes ]
 */
 import java.util.Scanner;
 public class hello1 {
