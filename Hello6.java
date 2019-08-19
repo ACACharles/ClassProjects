@@ -23,7 +23,8 @@ class Hello6
 	//Then replies with it's own name
 		System.out.println (" Hello, I am Hello6.");
 	
-	
+	//Everything works
+		
 	}
 
 }
