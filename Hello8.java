@@ -1,4 +1,12 @@
-//This is Drew reviewing file Hello8.java
+ /* 
+	Final Review.
+	I chose not to implement formatting suggestion. I chose println after asking for user name 
+	to establish a feeling of dialogue between user and developer. Thank you for the input.
+	-Keith
+
+ */
+ 
+ //This is Drew reviewing file Hello8.java
 import java.util.Scanner;
 public class Hello8{
 	public static void main (String[] args){
