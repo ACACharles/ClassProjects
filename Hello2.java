@@ -2,8 +2,8 @@
 This is Marcus reviewing file Hello2
 App works. I had to omit the "package help;" though for it to work for me. 
 */
-
-package help;  //what's this do?
+//Kori removed package help
+//package help;  //what's this do?
 
 import java.util.Scanner;
 
@@ -18,4 +18,6 @@ public class Hello2 {
 		System.out.println("Hello " + x + ". My name is Kori.");  //print results
 	}
 }
+
+//Final review by Kori
 		
