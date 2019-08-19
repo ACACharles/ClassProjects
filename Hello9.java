@@ -8,7 +8,7 @@ public class Hello9 {
 		
 		String user = input.nextLine() ;
 		
-		System.out.println( "Hello " + user + "My name is 9." );
+		System.out.println( "Hello " + user + " My name is Brian." );
 		
 	}
 	
