@@ -21,8 +21,11 @@ public class hello1 {
 //thanks the user
 			System.out.println("Thank you!");
 //talks to user
-			System.out.println("Hello " + username + "!");
-//introduces self to user			
-			System.out.println("Hello my name is "+ devname + "!");
+// Changed final Print line, makes more sense this way
+			System.out.println("Hello " + username + ", my name is "+ devname + "!");
+
 	}
+			
 }
+
+//Final Copy, Zackery Fox

@@ -21,4 +21,9 @@ class hello3
 }
 /*
 	Code executes as intended.
+<<<<<<< HEAD
 */
+=======
+*/
+//Final look by user 3
+>>>>>>> 731567c892ca46837eaa9b0450269613348e2c13
