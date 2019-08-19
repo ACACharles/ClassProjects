@@ -19,3 +19,6 @@ class hello3
 		
 	}
 }
+/*
+	Code executes as intended.
+*/
