@@ -17,4 +17,30 @@ class DiceMath{
 		//return randomInt;
 		return randomInt;
 	}
+	
+	String dicePIC (int number){
+		int diceVALUE = number;
+		String one = "";
+		
+		switch (number)
+		{
+//			case number < 10;
+			case 0:
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+			case 7:
+			case 8:
+			case 9:			
+			one = "    _______\n"+"  /\\       \\\n"+" /()\\  ("+diceVALUE+")  \\\n"+"/    \\_______\\\n"+"\\    /()     /\n"+" \\()/   ()  /\n"+"  \\/_____()/";
+			break;
+			default:
+			one = "    _______\n"+"  /\\       \\\n"+" /()\\ ("+diceVALUE+")  \\\n"+"/    \\_______\\\n"+"\\    /()     /\n"+" \\()/   ()  /\n"+"  \\/_____()/";
+			break;
+		}
+		return one;
+	}
 }
