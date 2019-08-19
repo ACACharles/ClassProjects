@@ -1,3 +1,6 @@
+/*Andrew reviewing hello3
+it does work*\
+
 //imports scanner
 
 import java.util.Scanner; 
