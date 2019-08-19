@@ -2,7 +2,7 @@
 This is Marcus reviewing file Hello2
 */
 
-package help;
+package help;  //what's this do?
 
 import java.util.Scanner;
 
