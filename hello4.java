@@ -13,7 +13,7 @@ public static void main (String [] args ) {
 	
 	System.out.println("Hello " + name + " my name is" + myName) ; // Inputting Code plus Program Reponse
 
-/* This is Brian reviewing Hello4.java */	
+/* This is Brian reviewing Hello4.java.. Congrats you didn't break it!! */	
 	
 }
 }
