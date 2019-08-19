@@ -1,3 +1,9 @@
+/*
+
+This is Will reviewing file Hello5.
+DOES IT WORK ('YES'/NO)
+*/
+
 import java.util.Scanner;
 class HelloFive {
 	
