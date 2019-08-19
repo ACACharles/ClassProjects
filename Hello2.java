@@ -14,7 +14,7 @@ public class Hello2 {
 		Scanner name = new Scanner(System.in);
 		String x = name.next();
 		// still looking good
-		System.out.println("Hello " + x + ". My name is Kori.");
+		System.out.println("Hello " + x + ". My name is Kori.");  //print results
 	}
 }
-		// fin
+		
