@@ -1,28 +1,24 @@
-/*Andrew reviewing hello3
-it does work*\
-
-//imports scanner
-
+/*
+	This is user 8 commenting on this code.
+*/
+// Imports the scanner class
 import java.util.Scanner; 
-
-//names class
 class hello3
 {
-	//main methond
 	public static void main(String[] args)
 	
 	{
-		//names scanner input
+		//Creates a new object named "input" from the Scanner class and calls upon the System.in method from that class.
 		Scanner input = new Scanner(System.in);
-		
-		//prints Hello what is your name
+		//Prompts the user for the desired input.
 		System.out.print("Hello! What is your name?: ");
-		
-		//prompts input for name
+		//Accepts input from the user in the user in the form of a String that has been named "name".
 		String name = input.nextLine();
-		
-		//prints input for name
+		//Prints out to screen string literals concatonated with the user input.
 		System.out.println("Hello " + name + ", my name is Drew.");
 		
 	}
 }
+/*
+	Code executes as intended.
+*/
