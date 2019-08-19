@@ -2,7 +2,7 @@ package help;
 
 import java.util.Scanner;
 
-public class HelloUsername {
+public class Hello2 {
 
 	public static void main(String[] args) {
 
