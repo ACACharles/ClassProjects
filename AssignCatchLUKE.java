@@ -31,10 +31,10 @@ public class AssignCatchLUKE {
 		{
 				  System.out.println("Parent Exception"); 
 		}
-					System.out.println("rest of the code");
+					System.out.println("this used to be an int : " + str);
 		
 		
-	   System.out.println("this used to be an int" + str);
+	   
 		System.out.println("Elements in the array are: ");
 		   System.out.println(Arrays.toString(myArray));
 		    Scanner sc = new Scanner(System.in) ;
