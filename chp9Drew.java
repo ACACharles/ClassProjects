@@ -19,11 +19,7 @@ public class chp9Drew {
 
 			
 			System.out.print(div+bound+notstr);
-			}catch(ArithmeticException e) {
-				z=e.toString();
-			}catch(ArrayIndexOutOfBoundsException e) {
-				z=e.toString();
-			}catch(NumberFormatException e) {
+			}catch(ArithmeticException |ArrayIndexOutOfBoundsException | NumberFormatException e) {
 				z=e.toString();
 			}finally {
 				System.out.println("The following error was caught: "+z+" :in for loop roation "+i+"\n");
