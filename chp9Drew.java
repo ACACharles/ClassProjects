@@ -8,6 +8,7 @@ public class chp9Drew {
 		int bound=0;
 		int notstr;
 		String str="This is a string";
+		String z="";
 		for(int i=0; i<3;i++) {
 			
 			try {
@@ -19,14 +20,13 @@ public class chp9Drew {
 			
 			System.out.print(div+bound+notstr);
 			}catch(ArithmeticException e) {
-				System.out.println("Exception caught: "+e);
-				System.out.println("\n");
+				z=e.toString();
 			}catch(ArrayIndexOutOfBoundsException e) {
-				System.out.println("Exception caught: "+e);
-				System.out.println("\n");
+				z=e.toString();
 			}catch(NumberFormatException e) {
-				System.out.println("Exception caught: "+e.toString());
-				System.out.println("\n");
+				z=e.toString();
+			}finally {
+				System.out.println("The following error was caught: "+z+" :in for loop roation "+i+"\n");
 			}
 			
 		}
