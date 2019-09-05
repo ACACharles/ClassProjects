@@ -11,9 +11,9 @@ public class AssignCatchLUKE {
 		 int k = 0; 
 		  int data ; 
 		 int [] myArray = {7, 4, 3, 2,}; 
-		int l = 0 ;
-		//String str  = String.ValueOf(l) ;
-		
+		int i = 0 ;
+		String str  = Integer.toString(i) ;
+	
 			
 			
 		try {
@@ -21,7 +21,7 @@ public class AssignCatchLUKE {
 		}
 		catch(ArithmeticException e)
 		{ 
-			System.out.println("Arithmetic Exception");
+			System.out.println("error: divide by 0");
 		}
 			catch(ArrayIndexOutOfBoundsException e)
 		{
@@ -34,14 +34,14 @@ public class AssignCatchLUKE {
 					System.out.println("rest of the code");
 		
 		
-		
+	   System.out.println("this used to be an int" + str);
 		System.out.println("Elements in the array are: ");
 		   System.out.println(Arrays.toString(myArray));
 		    Scanner sc = new Scanner(System.in) ;
 		     System.out.println("Enter the index of element greater than 3 :: ");
 		    int element = sc.nextInt();
 		   System.out.println(" Element in the given index is : " + myArray[element]);
-		System.out.println(l);
+		
 
 			
 				
